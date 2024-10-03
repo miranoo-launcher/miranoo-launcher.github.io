@@ -32,6 +32,12 @@ svg.filters { height:0; width: 0; position: absolute; z-index:-1; }
 
     animation: onloadscale 1s ease-out forwards;
 }
+
+.glow-filter{
+    cursor: pointer;
+    display: inline-block;
+}
+
 .glow-filter::before{
     content: attr(data-text);
     position: absolute;
